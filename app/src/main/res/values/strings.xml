@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RunningTracker</string>
+    <string name="notification_channel_Id">runningtrackerChannnelid</string>
+    <string name="notification_channel_name">runningtrackerchannel</string>
+    <string name="notifcation_description">This is to notify about your steps</string>
+    <string name="permission_detial">Without this perrmission, app cannot do its functionality</string>
+
 </resources>

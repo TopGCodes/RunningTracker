@@ -1,4 +1,4 @@
-package com.abhi.runningtracker.ui.theme
+package com.abhi.runningtracker.ui
 
 import androidx.compose.ui.graphics.Color
 

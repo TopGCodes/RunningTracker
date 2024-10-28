@@ -111,10 +111,15 @@ dependencies {
     //Workmanager
     implementation(Workmanager.runtime)
 
+    implementation(libs.accompanist.permissions)
+
+
     //Room
-//    implementation(Room.runtime)
-//    kapt(Room.compiler)
-//    implementation(Room.ktx)
+    implementation(Room.runtime)
+    kapt(Room.compiler)
+    implementation(Room.ktx)
 
-
+}
+kapt{
+    correctErrorTypes = true
 }
